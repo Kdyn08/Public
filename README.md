@@ -24,6 +24,34 @@
     
 <br>
 
+# 웹프로젝트요구사항
+
+<br>
+
+> 운영체제
+ 
+ - VMWare + Ubuntu
+
+> 가상환경
+
+ - Docker
+
+> 웹서버
+
+ - nginx
+
+> RDB + 데이터베이스
+
+ - MySQL, MSSQL, 오라클 + Redis
+
+> 로그인기능, SESSION
+
+ - JWT
+
+> Restful API
+
+<br>
+
 ## 진행 상황
 
 <br>
@@ -49,7 +77,7 @@
 #### 참고 자료
 
 > README.md
-  
+
   - https://github.com/gyoogle/Project/blob/master/README.md
 
 > HTML5
@@ -59,4 +87,6 @@
 > 1. 통합 검색 도구 제작
 
   - JavaScript 구글 검색엔진 사용법 https://homnay.tistory.com/56
+
+
    
