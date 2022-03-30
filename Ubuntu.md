@@ -206,15 +206,15 @@
       
       - New passward - 설정할 비밀번호를 2번 입력하여 설정
  
-      <img src="https://user-images.githubusercontent.com/101278786/160946381-0bf4ab95-25f3-419c-aead-ac54c65c7233.png" width="500">
+      <img src="https://user-images.githubusercontent.com/101278786/160946381-0bf4ab95-25f3-419c-aead-ac54c65c7233.png" width="500"><br>
  
-      - Remove anonymous users? - 익명 유저를 차단할 것인지 설정 - Y
+      > Remove anonymous users? - 익명 유저를 차단할 것인지 설정 - Y
+      >
+      > Disallow root login remotely? 외부 접속을 차단할 것인지 설정 - Y
+      >
+      > Remove test database and access to it? 테스트 데이터베이스를 삭제할 것인지 설정 - Y
  
-      - Disallow root login remotely? 외부 접속을 차단할 것인지 설정 - Y
- 
-      - Remove test database and access to it? 테스트 데이터베이스를 삭제할 것인지 설정 - Y
- 
-      <img src="https://user-images.githubusercontent.com/101278786/160946872-1bf67d32-052f-4acb-a314-15e0b478c9fd.png" width="500">
+      <img src="https://user-images.githubusercontent.com/101278786/160946872-1bf67d32-052f-4acb-a314-15e0b478c9fd.png" width="500"><br>
  
       - privileges table를 다시 시작할 것인지 설정 - Y
  
