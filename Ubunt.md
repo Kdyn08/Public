@@ -42,13 +42,12 @@
           
       - Device - CD/DVD (SATA), Connection - Use ISO image file: (2에서 다운로드한 Ubunto 파일)
 
-          ![image](https://user-images.githubusercontent.com/101278786/159787945-31dd7312-03bf-46bb-9ef4-5355b2fed70a.png)
           <img src="https://user-images.githubusercontent.com/101278786/159787945-31dd7312-03bf-46bb-9ef4-5355b2fed70a.png" width="500">
           
       - Play virtual machine
       
       - 언어 설정 및 체험하기 선택
-          ![image](https://user-images.githubusercontent.com/101278786/159788510-c10a72a1-df74-4f15-9fda-9adb10129c88.png)
+      - 
           <img src="https://user-images.githubusercontent.com/101278786/159788510-c10a72a1-df74-4f15-9fda-9adb10129c88.png" width="500">
           
     
