@@ -6,7 +6,7 @@
 
 <br>
 
- > Ubuntu는 오픈소스 Linux 배포판들중 하나로 이를 Windows가 설치되어있는 기기에서 사용하게 위해 가상머신 VMware를 사용한다.
+ > **Ubuntu**는 오픈소스 Linux 배포판들중 하나로 이를 Windows가 설치되어있는 기기에서 사용하게 위해 가상머신 **VMware**를 사용한다.
 
 <br>
 
@@ -83,9 +83,11 @@
 
 <br>
 
-## repository를 이용하여 Docker 설치
+## Docker 설치
 
 <br>
+
+   > **Docker**는 Linux 컨테이너를 기반으로한 오픈소스 가상화 플랫폼으로 시스템 리소스를 효율적으로 사용할 수 있게 해주며, 뛰어난 이식성을 가진다.  [참고](https://khj93.tistory.com/entry/Docker-Docker-%EA%B0%9C%EB%85%90)
 
 <details>
     <summary>설치 과정</summary>
@@ -136,6 +138,92 @@
 
 <br>
 
+## Nginx 설치
+
+<br>
+
+   > 
+
+<br>
+
+<details>
+    <summary>설치 과정</summary>
+ 
+   1. 서버 패키지 목록 업데이트
+
+          sudo apt update
+ 
+   2. Nginx 설치
+ 
+          sudo apt install nginx
+ 
+      <img src="https://user-images.githubusercontent.com/101278786/160941054-53f836b5-3a46-449a-a38e-57879c380920.png" width="500">
+
+   3. 설치 후 테스트
+  
+      - Nginx 테스트
+ 
+             sudo systemctl status nginx
+ 
+      <img src="https://user-images.githubusercontent.com/101278786/160942307-ca5f4fb0-dea9-4148-a96a-242dc0aa9169.png" width="500">
+
+ 
+      - Nginx 버전 확인
+ 
+             sudo dpkg -l nginx
+ 
+      <img src="https://user-images.githubusercontent.com/101278786/160942153-49f335e7-8bf3-493f-811e-e8f56432e277.png" width="500">
+
+ 
+ 
+</details>
+
+## MySOL 설치
+
+<br>
+
+>
+
+<br>
+
+<details>
+    <summary>설치 과정</summary>
+ 
+   1. MySOL 설치
+
+          sudo apt install -y mysql-server
+          
+   <img src="https://user-images.githubusercontent.com/101278786/160945260-9e9239dd-5207-4e7a-988f-8ce91ca77e32.png" width="500">
+   
+   2. MySOL 서버 초기화
+ 
+           sudo mysql_secure_installation
+ 
+    <img src="https://user-images.githubusercontent.com/101278786/160945979-86ba8ece-a2f8-43f1-b87c-715cb6f1f7de.png" width="500">
+
+
+   3. 유저 설정
+      
+      - New passward - 설정할 비밀번호를 2번 입력하여 설정
+ 
+      <img src="https://user-images.githubusercontent.com/101278786/160946381-0bf4ab95-25f3-419c-aead-ac54c65c7233.png" width="500">
+ 
+      - Remove anonymous users? - 익명 유저를 차단할 것인지 설정 - Y
+ 
+      - Disallow root login remotely? 외부 접속을 차단할 것인지 설정 - Y
+ 
+      - Remove test database and access to it? 테스트 데이터베이스를 삭제할 것인지 설정 - Y
+ 
+      <img src="https://user-images.githubusercontent.com/101278786/160946872-1bf67d32-052f-4acb-a314-15e0b478c9fd.png" width="500">
+ 
+      - privileges table를 다시 시작할 것인지 설정 - Y
+ 
+      <img src="https://user-images.githubusercontent.com/101278786/160947049-24b8eea6-a0cc-4e43-92ea-d434a06de6b8.png" width="500">
+ 
+ 
+
+</details>
+ 
 <br><br><br><br><br><br><br><br><br><br><br>
       
 
@@ -146,7 +234,15 @@
 
    - [[가상머신]VMware에 Ubuntu 20.04 LTS 설치하기](https://tomcabin.tistory.com/3)
 
-> Ubuntu에 Docker 설치
+> Docker 설치
 
    - [docker ](https://docs.docker.com/engine/install/ubuntu/)
    - [Ubuntu 20.04 LTS ) Docker 설치하기](https://shanepark.tistory.com/237)
+
+> Nginx 설치
+
+   - [Ubuntu 20.04에 Nginx 웹 서버를 설치하는 방법](https://ko.linux-console.net/?p=721)
+
+> MySOL 설치
+
+   - [우분투 MySQL 설치](https://hiseon.me/linux/ubuntu/ubuntu-mysql-install/)
