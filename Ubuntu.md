@@ -199,7 +199,7 @@
  
            sudo mysql_secure_installation
  
-    <img src="https://user-images.githubusercontent.com/101278786/160945979-86ba8ece-a2f8-43f1-b87c-715cb6f1f7de.png" width="500">
+   <img src="https://user-images.githubusercontent.com/101278786/160945979-86ba8ece-a2f8-43f1-b87c-715cb6f1f7de.png" width="500">
 
 
    3. 유저 설정
