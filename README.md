@@ -16,9 +16,9 @@
 
   - 세부 목표
 
-    1. 비주얼 스튜디오 코드 설치 - [비주얼 스튜디오 코드 세팅 참고](https://digiconfactory.tistory.com/entry/HTML5-%EA%B8%B0%EC%B4%88-%EB%B9%84%EC%A3%BC%EC%96%BC-%EC%8A%A4%ED%8A%9C%EB%94%94%EC%98%A4-%EC%BD%94%EB%93%9C-%EC%84%A4%EC%B9%98%EC%99%80-%EC%B4%88%EA%B8%B0%EC%84%A4%EC%A0%95-%ED%85%8C%EB%A7%88-%EC%8B%A4%ED%96%89-%ED%85%8C%EC%8A%A4%ED%8A%B8)
-
-  - [Ubuntu 세팅](https://github.com/Kdyn08/Public/edit/main/Ubuntu.md)
+    1. 비주얼 스튜디오 코드 설치
+    
+    2. [Ubuntu 세팅](https://github.com/Kdyn08/Public/edit/main/Ubuntu.md)
 
 > 통합 검색 도구 제작
    
@@ -47,6 +47,10 @@
     1. 검색 엔진 종류 및 이미지 검색 등 세부설정 추가
 
   - 웹페이지 구성
+
+    2. 로그인 기능 추가
+    
+    3. 계시판 기능 추가
 
 <br>
 
@@ -113,10 +117,6 @@
 > HTML5
 
   - [비주얼 스튜디오 코드 세팅 참고](https://digiconfactory.tistory.com/entry/HTML5-%EA%B8%B0%EC%B4%88-%EB%B9%84%EC%A3%BC%EC%96%BC-%EC%8A%A4%ED%8A%9C%EB%94%94%EC%98%A4-%EC%BD%94%EB%93%9C-%EC%84%A4%EC%B9%98%EC%99%80-%EC%B4%88%EA%B8%B0%EC%84%A4%EC%A0%95-%ED%85%8C%EB%A7%88-%EC%8B%A4%ED%96%89-%ED%85%8C%EC%8A%A4%ED%8A%B8)
-
-> 1. 통합 검색 도구 제작
-
-  - JavaScript 구글 검색엔진 사용법 https://homnay.tistory.com/56
 
 
    
