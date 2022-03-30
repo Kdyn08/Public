@@ -22,15 +22,15 @@
 
     - Create a New Virtual Machine
     
-         <img src="https://user-images.githubusercontent.com/101278786/159786353-ef92d23b-a830-424a-8d1a-1f35bc849e05.png" width="200">
+         <img src="https://user-images.githubusercontent.com/101278786/159786353-ef92d23b-a830-424a-8d1a-1f35bc849e05.png" width="500">
 
     - Install from: I will install the operating system later.
     
-         <img src="https://user-images.githubusercontent.com/101278786/159786303-441f5f56-a8fb-4f32-a82d-cc9f8b25b801.png" width="200">
+         <img src="https://user-images.githubusercontent.com/101278786/159786303-441f5f56-a8fb-4f32-a82d-cc9f8b25b801.png" width="500">
 
     - Guest operating system - Linux, Version - Ubuntu
     
-         <img src="https://user-images.githubusercontent.com/101278786/159786381-781cc5c9-1be0-4c77-bbbf-75b350cd82a5.png" width="200">
+         <img src="https://user-images.githubusercontent.com/101278786/159786381-781cc5c9-1be0-4c77-bbbf-75b350cd82a5.png" width="500">
          
 <br>
 
@@ -38,17 +38,19 @@
 
       - Edit Virtual Machine Settings
 
-          ![image](https://user-images.githubusercontent.com/101278786/159787215-35e5f6ba-8ab6-4c83-bb26-ed8bc40dd8b6.png)
+          <img src="https://user-images.githubusercontent.com/101278786/159787215-35e5f6ba-8ab6-4c83-bb26-ed8bc40dd8b6.png" width="500">
           
       - Device - CD/DVD (SATA), Connection - Use ISO image file: (2에서 다운로드한 Ubunto 파일)
 
           ![image](https://user-images.githubusercontent.com/101278786/159787945-31dd7312-03bf-46bb-9ef4-5355b2fed70a.png)
-         
+          <img src="https://user-images.githubusercontent.com/101278786/159787945-31dd7312-03bf-46bb-9ef4-5355b2fed70a.png" width="500">
+          
       - Play virtual machine
       
       - 언어 설정 및 체험하기 선택
           ![image](https://user-images.githubusercontent.com/101278786/159788510-c10a72a1-df74-4f15-9fda-9adb10129c88.png)
-    
+          <img src="https://user-images.githubusercontent.com/101278786/159788510-c10a72a1-df74-4f15-9fda-9adb10129c88.png" width="500">
+          
     
 
 
