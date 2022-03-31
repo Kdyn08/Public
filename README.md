@@ -18,6 +18,8 @@
     
    - [Ubuntu 세팅](https://github.com/Kdyn08/Public/edit/main/Ubuntu.md)
 
+<br>
+
 > 통합 검색 도구 제작
   
    - 자바스크립트 검색 엔진 테스트  - [JavaScript 구글 검색엔진 사용법](https://homnay.tistory.com/56)
@@ -26,6 +28,8 @@
     
    - 이미지 검색 등 분류별 검색 설정 추가
 
+<br>
+
 > 서버 및 데이터베이스 연결
 
    - 서버 및 데이터베이스 구성
@@ -33,6 +37,8 @@
    - 검색 기록 수집
     
    - 수집한 데이터 가공
+
+<br>
 
 > 추가 목표
 
@@ -64,6 +70,8 @@
    
     3. 서버를 통한 데이터 관리 시스템 구축
 
+<br>
+
 > 제작 환경
 
   - 사용 언어
@@ -82,21 +90,31 @@
  
  - VMWare + Ubuntu
 
+<br>
+
 > 가상환경
 
  - Docker
+
+<br>
 
 > 웹서버
 
  - nginx
 
+<br>
+
 > RDB + 데이터베이스
 
  - MySQL, MSSQL, 오라클 + Redis
 
+<br>
+
 > 로그인기능, SESSION
 
  - JWT
+
+<br>
 
 > Restful API
 
