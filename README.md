@@ -1,10 +1,10 @@
-# 현재 수정중
+## 현재 작성중
 
 <br>
 
- - [Ubuntu](https://github.com/Kdyn08/Public/edit/main/Ubunt.md)
+ - [Ubuntu.md](https://github.com/Kdyn08/Public/edit/main/Ubunt.md)
  
- - [errorNote](https://github.com/Kdyn08/Public/new/main)
+ - [errorNote.md](https://github.com/Kdyn08/Public/new/main)
 
 <br>
 
