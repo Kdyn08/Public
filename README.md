@@ -2,7 +2,7 @@
 
 <br>
 
- - [Ubuntu.md](https://github.com/Kdyn08/Public/edit/main/Ubunt.md)
+ - [Ubuntu.md](https://github.com/Kdyn08/Public/edit/main/Ubuntu.md)
  
  - [errorNote.md](https://github.com/Kdyn08/Public/new/main)
 
