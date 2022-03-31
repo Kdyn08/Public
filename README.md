@@ -14,17 +14,17 @@
 
 > 제작 기반
 
-    - 비주얼 스튜디오 코드 설치
+   - 비주얼 스튜디오 코드 설치
     
-    - [Ubuntu 세팅](https://github.com/Kdyn08/Public/edit/main/Ubuntu.md)
+   - [Ubuntu 세팅](https://github.com/Kdyn08/Public/edit/main/Ubuntu.md)
 
 > 통합 검색 도구 제작
   
-    - 자바스크립트 검색 엔진 테스트  - [JavaScript 구글 검색엔진 사용법](https://homnay.tistory.com/56)
+   - 자바스크립트 검색 엔진 테스트  - [JavaScript 구글 검색엔진 사용법](https://homnay.tistory.com/56)
     
-    - 검색 설정 박스 생성
+   - 검색 설정 박스 생성
     
-    - 이미지 검색 등 분류별 검색 설정 추가
+   - 이미지 검색 등 분류별 검색 설정 추가
 
 > 서버 및 데이터베이스 연결
 
