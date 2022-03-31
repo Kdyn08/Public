@@ -174,9 +174,11 @@
  
       <img src="https://user-images.githubusercontent.com/101278786/160942153-49f335e7-8bf3-493f-811e-e8f56432e277.png" width="500">
 
- 
+<br>
  
 </details>
+
+<br>
 
 ## MySOL 설치
 
@@ -220,12 +222,14 @@
  
       <img src="https://user-images.githubusercontent.com/101278786/160947049-24b8eea6-a0cc-4e43-92ea-d434a06de6b8.png" width="500">
  
- 
+<br>
 
 </details>
  
-<br><br><br><br><br><br><br><br><br><br><br>
-      
+<br>
+
+<br><br><br><br><br><br><br><br><br><br>
+
 
 
 
