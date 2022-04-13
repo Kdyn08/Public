@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <title>all-in-one</title>
+</head>
+<body>
+    <section>
+    <div class="main">
+        <h1>all-in-one</h1>
+        <br>
+        <div class="searchBox">
+            <input type="text" name="" class="query" placeholder="검색어">
+        </div>
+    <div class="button">
+        <button class="searchBtn">검색</button>
+    </div>
+    <br>
+    <details>
+        <summary>검색 설정</summary>
+        <br>
+        <div class="my-box">
+        검색 엔진
+        <input type="checkbox" name="searchsetting" id="google" checked="checked">
+        <label for="google">Google</label>
+        <input type="checkbox" name="searchsetting" id="naver">
+        <label for="naver">NAVER</label>
+        <input type="checkbox" name="searchsetting" id="daum">
+        <label for="daum">Daum</label>
+        </div>
+    </details>
+    </div>
+    </section>
+        
+    <script>
+        let query = document.querySelector('.query');
+        let searchBtn = document.querySelector('.searchBtn');
+        
+        searchBtn.onclick = function() {
+            if(document.getElementById("google").checked) {
+                let urlgooglesearch = 'https://www.google.com/search?q='+query.value;
+                window.open(urlgooglesearch);
+            }
+            if(document.getElementById("naver").checked) {
+                let urlnaversearch = 'https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=0&ie=utf8&query='+query.value;
+                window.open(urlnaversearch);
+            }
+            if(document.getElementById("daum").checked) {
+                let urldaumsearch = 'https://search.daum.net/search?nil_suggest=btn&w=tot&DA=SBC&q='+query.value;
+                window.open(urldaumsearch);
+            }
+            //window.open(url. '_self');
+        }
+    </script>
+</body>
+</html>
