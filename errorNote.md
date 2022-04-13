@@ -3,6 +3,19 @@
 <details>
     <summary>자세히</summary>
 
+    - MariaDB 설치중 망가진 고정 패키지 오류 발생
+    
+    ![image](https://user-images.githubusercontent.com/101278786/163272561-f9fb9819-aa57-4dc7-980c-efa1d312491d.png)
+    
+    > MySQL 삭제로 해결
+    
+                sudo apt-get remove mariadb-server mariadb-client mysql-server mysql-client
+    
+    - Nginx 테스트중 404 에러가 나와서 재설치했다.
+    
+    ![image](https://user-images.githubusercontent.com/101278786/163277039-139b168c-bf7e-42ea-b684-af1e580f2094.png)
+
+
 </details>
 
 <br>
@@ -28,6 +41,16 @@
 
 <details>
     <summary>자세히</summary>
+    
+    - Visual Studio Code 설치중 설치 코드를 입력했는데 apt 패키지를 찾을 수 없다고 한다.
+
+               $ sudo apt install code
+
+![image](https://user-images.githubusercontent.com/101278786/163192547-b7d07bbc-9b1d-4095-8433-52f3e8ffd7b8.png)
+
+    > 중간 코드가 누락되었었다.
+    
+              sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
 
 </details>
 
