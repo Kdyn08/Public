@@ -83,7 +83,7 @@
 
 <br>
 
-## Docker 설치
+### Docker 설치
 
 <br>
 
@@ -138,7 +138,7 @@
 
 <br>
 
-## Nginx 설치
+### Nginx 설치
 
 <br>
 
@@ -180,7 +180,7 @@
 
 <br>
 
-## MySOL 설치
+### MySOL 설치 - MariaDB 충돌로 삭제
 
 <br>
 
@@ -225,9 +225,97 @@
 <br>
 
 </details>
+
+<br>
+
+### Visual Studio Code 설치
  
 <br>
 
+<details>
+    <summary>설치 과정</summary>
+ 
+   1. curl 설치
+ 
+           $ sudo apt-get install curl
+ ![image](https://user-images.githubusercontent.com/101278786/163190216-f04dac04-3a82-4fb3-b209-86f5aaffac0c.png)
+
+   2. 마이크로소프트 GPG키 복사
+ 
+           $ sudo sh -c 'curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > /etc/apt/trusted.gpg.d/microsoft.gpg'
+ 
+ ![image](https://user-images.githubusercontent.com/101278786/163191456-a8af6283-e5ee-43b8-94de-7f62d80436ac.png)
+
+ 
+   3. 프로그램 다운을 위한 저장소 추가 후 패키지 목록 가져오기
+  
+           $ sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
+           
+           $ sudo apt update
+           
+ ![image](https://user-images.githubusercontent.com/101278786/163192039-8cc2a6d1-ced7-4c3d-9cb7-66d948ead828.png)
+
+   4. Visual Studio Code를 설치
+      
+           $ sudo apt install code
+ 
+ ![image](https://user-images.githubusercontent.com/101278786/163194220-82c7b7fb-8a53-444c-8751-4069b1abe61c.png)
+
+   5. 설치완료
+ 
+ ![image](https://user-images.githubusercontent.com/101278786/163194535-ec021dd4-763f-4456-8b2f-41d7b661eae6.png)
+
+   6. 윈도우에서 사용하던 확장기능 다운로드
+ 
+      - Korean Language Pack for Visual Studio Code
+ 
+      - HTML CSS Support
+ 
+      - Live Server
+ 
+
+</details>
+
+<br> 
+
+### MariaDB 및 PHP-FPM 설치
+
+<br>
+
+<details>
+    <summary>설치 과정</summary>
+
+   1. MariaDB 저장소 추가
+ 
+           sudo add-apt-repository 'deb [arch=amd64,arm64,ppc64el] http://sgp1.mirrors.digitalocean.com/mariadb/repo/10.4/ubuntu bionic main'
+ 
+ ![image](https://user-images.githubusercontent.com/101278786/163273723-b42a9d1c-2328-4084-923c-eccf5f93ca93.png)
+
+ 
+   2. MariaDB 저장소 인증키 추가
+ 
+           sudo apt-key adv --recv-keys --keyserver hkp://keyserver.ubuntu.com:80 0xF1656F24C74CD1D8
+ 
+ ![image](https://user-images.githubusercontent.com/101278786/163273852-d36dd148-7a95-43c4-b79f-ebd1fa262d38.png)
+ 
+   3. PHP 저장소 및 저장소 인증키 추가
+ 
+           sudo add-apt-repository ppa:ondrej/php
+ 
+ ![image](https://user-images.githubusercontent.com/101278786/163274327-6057b87c-c809-4a7b-812e-08bc2aaed99c.png)
+
+   4. apt 갱신
+ 
+           apt update
+ 
+</details>
+
+<br>
+
+
+ 
+ 
+ 
 <br><br><br><br><br><br><br><br><br><br>
 
 
@@ -250,3 +338,8 @@
 > MySOL 설치
 
    - [우분투 MySQL 설치](https://hiseon.me/linux/ubuntu/ubuntu-mysql-install/)
+
+> Visual Studio Code 설치
+
+   - https://webnautes.tistory.com/1197
+
