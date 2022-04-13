@@ -4,9 +4,10 @@ https://kdyn08.github.io/Public/
 
 <br>
 
- - [Ubuntu.md](https://github.com/Kdyn08/Public/edit/main/Ubuntu.md)
+ - [Ubuntu.md](https://github.com/Kdyn08/Public/main/Ubuntu.md)
  
- - [errorNote.md](https://github.com/Kdyn08/Public/new/main)
+ - [errorNote.md](https://github.com/Kdyn08/Public/main/errorNote.md)
+
 
 <br>
 
