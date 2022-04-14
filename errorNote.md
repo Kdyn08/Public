@@ -3,17 +3,8 @@
 <details>
     <summary>자세히</summary>
 
-    - MariaDB 설치중 망가진 고정 패키지 오류 발생
-    
-    ![image](https://user-images.githubusercontent.com/101278786/163272561-f9fb9819-aa57-4dc7-980c-efa1d312491d.png)
-    
-    > MySQL 삭제로 해결
-    
-                sudo apt-get remove mariadb-server mariadb-client mysql-server mysql-client
-    
-    - Nginx 테스트중 404 에러가 나와서 재설치했다.
-    
-    ![image](https://user-images.githubusercontent.com/101278786/163277039-139b168c-bf7e-42ea-b684-af1e580f2094.png)
+
+
 
 
 </details>
@@ -51,6 +42,24 @@
     > 중간 코드가 누락되었었다.
     
               sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
+    
+    - Nginx 테스트중 404 에러가 나와서 재설치했다.
+    
+    ![image](https://user-images.githubusercontent.com/101278786/163277039-139b168c-bf7e-42ea-b684-af1e580f2094.png)
+    
+    > 재설치 반복으로 해결
+    
+    - MariaDB 설치중 망가진 고정 패키지 오류 발생
+    
+    ![image](https://user-images.githubusercontent.com/101278786/163272561-f9fb9819-aa57-4dc7-980c-efa1d312491d.png)
+    
+    > MySQL 삭제로 해결 한줄 알았으나 해결 실패
+    
+                sudo apt-get remove mariadb-server mariadb-client mysql-server mysql-client
+    
+    >  libmariadbd-dev 패키지 설치후 재설치로 해결 실패 http://egloos.zum.com/mcchae/v/11141964
+       
+                sudo apt-get install libmariadbd-dev
 
 </details>
 
