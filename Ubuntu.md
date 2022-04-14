@@ -180,7 +180,7 @@
 
 <br>
 
-### MySOL 설치 - MariaDB 충돌로 삭제
+### MySOL 설치 - 현재 
 
 <br>
 
@@ -306,9 +306,42 @@
 
    4. apt 갱신
  
-           apt update
+           sudo apt update
  
-</details>
+   5. PHP7-FPM 설치
+ 
+           sudo apt install php7.3-fpm
+           //버전확인
+           php -v
+           php-fpm7.3 -v
+ 
+ ![image](https://user-images.githubusercontent.com/101278786/163280793-68120616-e75c-4e82-ada3-4be3419bda14.png)
+ 
+   6. PHP모듈 설치
+ 
+           //다국어 처리모듈
+           sudo apt install php7.3-mbstring
+           //이미지 처리모듈
+           sudo apt install php7.3-gd
+           //원격지 정보 모듈
+           sudo apt install php7.3-curl php7.3-xml
+           //수학 연산 확장 모듈
+           sudo apt install php7.3-bcmath
+           //MySQL 연동 모듈
+           sudo apt install php7.3-mysql
+           //국제화 코드 모듈
+           sudo apt install php7.3-intl
+           //Composer
+           sudo apt install composer
+ 
+   7. MariaDB 설치
+   
+           //MariaDB 콘솔 프로그램 설치
+           sudo apt install mariadb-client
+           //오류발생시 전부 삭제하고 libmariadbd-dev 패치지 설치 후 재시도
+           sudo apt-get install libmariadbd-dev
+           //MariaDB 서버 설치
+           sudo apt install mariadb-server
 
 <br>
 
